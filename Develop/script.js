@@ -7,7 +7,7 @@ var passwordUpper
 var passwordNumber 
 var passwordSpecial
 
-//variable for choices of criteria
+//variable for final array based on choices of criteria
 var criteriaChoice
 
 // Password Variables
@@ -31,7 +31,7 @@ function writePassword() {
   //then
   //display alert with message  -- alert ("please enter a number")
   //else if
-  //the number entered is less then 8 or more then 128  --  (passwordLength = enter<8 || enter<128)
+  //the number entered is less then 8 or more then 128  --  (passwordLength = enter<8 || enter>128)
   //then
   //display alert with message  -- passwordLength = parseInt(prompt ("please enter a number between 8 to 128"))
   //else
@@ -47,12 +47,24 @@ function writePassword() {
   //then
   //display alert with message alert  criteriaChoice = alert("please pick at least one criteria")
   //else
+  //if
+  //all 4 criteria chosen  --  passwordLower && passwordUpper && passwordNumber && passwordSpecial)
+  //what do i do here??? criteriaChoice = passwordLower.concat(passwordUpper, passwordNumber, passwordSpecial)? merge selected array into one giant array?
+  //else
+  //if
+  //3 criteria chosen (list of else if statements - permutation of 3 of the 4 criteria)
+  //else
+  //if
+  //2 criteria chosen (list of else if statements - permutation of 2 of the 4 criteria)
+  //else
+  //if
+  //1 criteria chosen (list of else if statement - each of the criteria)
   //proceed to password generation
 
   var password = generatePassword();
 
-  //if
-  //all 4 criteria chosen  --  passwordLower && passwordUpper && passwordNumber && passwordSpecial)
+  //generatePassword function?
+  //this is the part that sucks right?
   
 
 
