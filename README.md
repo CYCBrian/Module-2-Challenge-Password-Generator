@@ -78,11 +78,11 @@ Although not included in the acceptance criteria. I wanted to add a way to stop 
 
 ## Credits
 
-[Stack Overflow - Random password generator with prompts [closed]](https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts)
+[Stack Overflow - Random password generator with prompts [closed] - Helped with js line 1-137](https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts)
 
-[MOSH - Creating a password generator using JavaScript](https://forum.codewithmosh.com/t/creating-a-password-generator-using-javascript/18971)
+[MOSH - Creating a password generator using JavaScript - Helped with js line 1-137](https://forum.codewithmosh.com/t/creating-a-password-generator-using-javascript/18971)
 
-[Geek For Geek - How to Generate a Random Password using JavaScript ?](https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/)
+[Geek For Geek - How to Generate a Random Password using JavaScript ? - Helped with js line 1-137](https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/)
 
 [MDN Web Doc - for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
@@ -99,8 +99,6 @@ Although not included in the acceptance criteria. I wanted to add a way to stop 
 [MDN Web Doc - Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 [MDN Web Doc - Addition assignment (+=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment)
-
-[Medium - 4 Simple and Quick Methods to Merge Arrays in JavaScript](https://blog.devgenius.io/5-simple-and-quick-methods-to-merge-arrays-in-javascript-cc7cad0453b3)
 
 [Stack Overflow - Javascript prompt() - cancel button to terminate the function](https://stackoverflow.com/questions/12864582/javascript-prompt-cancel-button-to-terminate-the-function)
 
