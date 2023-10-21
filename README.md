@@ -34,37 +34,37 @@ No dependencies and requirements.
 
 Upon accessing the application users will be presented with the following webpage in their browser.
 
-![Application Webpage](./Develop/Screenshots/webpage.jpg)
+![Application Webpage](./Assets/Screenshots/webpage.jpg)
 
 Clicking on the "Generate Password" button will display a prompt asking users to enter their desired password length between 8 and 128 characters.
 
-![Password Length Prompt](./Develop/Screenshots/length-prompt.jpg)
+![Password Length Prompt](./Assets/Screenshots/length-prompt.jpg)
 
 If users did not enter anything before clicking OK, a warning will display asking them to do so. The process will then restart from the top.
 
-![No Input Warning](./Develop/Screenshots/length-prompt-warning-1.jpg)
+![No Input Warning](./Assets/Screenshots/length-prompt-warning-1.jpg)
 
 If the password length chosen is outside of the acceptable range,  warning will display asking them to enter a password length inside the acceptable range. The process will then restart from the top.
 
-![Out of Bounds Warning](./Develop/Screenshots/length-prompt-warning-2.jpg)
+![Out of Bounds Warning](./Assets/Screenshots/length-prompt-warning-2.jpg)
 
 Once the user had entered a acceptable password length, the application will then ask them to confirm if they would like to include different character types.
 
-![Include Lower Case](./Develop/Screenshots/array-choice-confirm-1.jpg)
+![Include Lower Case](./Assets/Screenshots/array-choice-confirm-1.jpg)
 
-![Include Upper Case](./Develop/Screenshots/array-choice-confirm-2.jpg)
+![Include Upper Case](./Assets/Screenshots/array-choice-confirm-2.jpg)
 
-![Include Numbers](./Develop/Screenshots/array-choice-confirm-3.jpg)
+![Include Numbers](./Assets/Screenshots/array-choice-confirm-3.jpg)
 
-![Include Special Characters](./Develop/Screenshots/array-choice-confirm-4.jpg)
+![Include Special Characters](./Assets/Screenshots/array-choice-confirm-4.jpg)
 
 If users did not choose any character types, a warning will display asking them to include at least one character type. The process will then restart from the top.
 
-![No Character Type Warning](./Develop/Screenshots/array-choice-warning.jpg)
+![No Character Type Warning](./Assets/Screenshots/array-choice-warning.jpg)
 
 Once users have chosen their character type(s). A password will be generated and displayed onto the webpage.
 
-![Generated Password](./Develop/Screenshots/generated-password-display.jpg)
+![Generated Password](./Assets/Screenshots/generated-password-display.jpg)
 
 ## Issues
 
