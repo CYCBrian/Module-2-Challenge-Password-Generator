@@ -106,6 +106,8 @@ Although not included in the acceptance criteria. I wanted to add a way to stop 
 
 [W3 Schools - Window confirm()](https://www.w3schools.com/jsref/met_win_confirm.asp)
 
+[W3 Schools - Window alert()](https://www.w3schools.com/jsref/met_win_alert.asp)
+
 Xpert Learning Assistant
 
 - - -
