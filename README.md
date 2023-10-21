@@ -1,100 +1,114 @@
-# 03 JavaScript: Password Generator
+# Weekly Challenge 3 -  JavaScript: Password Generator
 
-## Your Task
+## Table of Content
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+- [Description](#description)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Issues](#issues)
+- [Links](#links)
+- [Credits](#credits)
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+## Description
 
-## User Story
+This is a simple web application that allows users to create randomly generated passwords based on a chosen combination of arrays.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+The process of gathering user input, generating password, and displaying the generated password onto the webpage are all done via javascript.
 
-## Acceptance Criteria
+## Features
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+- User input for password length (between 8 and 128 characters).
+- Options to include lowercase letters, uppercase letters, numbers, and special characters.
+- Validation to ensure at least one character type is selected.
+- Generation of a random password based on the selected character type(s).
+- Display of the generated password on to the webpage.
 
-## Mock-Up
+## Deployment
 
-The following image shows the web application's appearance and functionality:
+Simply click on the provided URl in the [Links](#links) section to access the web application.
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+No dependencies and requirements.
 
-## Grading Requirements
+## Usage
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Upon accessing the application users will be presented with the following webpage in their browser.
 
-This Challenge is graded based on the following criteria: 
+![Application Webpage](./Develop/Screenshots/webpage.jpg)
 
-### Technical Acceptance Criteria: 40%
+Clicking on the "Generate Password" button will display a prompt asking users to enter their desired password length between 8 and 128 characters.
 
-* Satisfies all of the preceding acceptance criteria.
+![Password Length Prompt](./Develop/Screenshots/length-prompt.jpg)
 
-### Deployment: 32%
+If users did not enter anything before clicking OK, a warning will display asking them to do so. The process will then restart from the top.
 
-* Application deployed at live URL.
+![No Input Warning](./Develop/Screenshots/length-prompt-warning-1.jpg)
 
-* Application loads with no errors.
+If the password length chosen is outside of the acceptable range,  warning will display asking them to enter a password length inside the acceptable range. The process will then restart from the top.
 
-* Application GitHub URL submitted.
+![Out of Bounds Warning](./Develop/Screenshots/length-prompt-warning-2.jpg)
 
-* GitHub repository that contains application code.
+Once the user had entered a acceptable password length, the application will then ask them to confirm if they would like to include different character types.
 
-### Application Quality: 15%
+![Include Lower Case](./Develop/Screenshots/array-choice-confirm-1.jpg)
 
-* Application user experience is intuitive and easy to navigate.
+![Include Upper Case](./Develop/Screenshots/array-choice-confirm-2.jpg)
 
-* Application user interface style is clean and polished.
+![Include Numbers](./Develop/Screenshots/array-choice-confirm-3.jpg)
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+![Include Special Characters](./Develop/Screenshots/array-choice-confirm-4.jpg)
 
-### Repository Quality: 13%
+If users did not choose any character types, a warning will display asking them to include at least one character type. The process will then restart from the top.
 
-* Repository has a unique name.
+![No Character Type Warning](./Develop/Screenshots/array-choice-warning.jpg)
 
-* Repository follows best practices for file structure and naming conventions.
+Once users have chosen their character type(s). A password will be generated and displayed onto the webpage.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+![Generated Password](./Develop/Screenshots/generated-password-display.jpg)
 
-* Repository contains multiple descriptive commit messages.
+## Issues
 
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+Although not included in the acceptance criteria. I wanted to add a way to stop the whole process when users click on "Cancel" on the password length prompt. I know I have the right code, but it doesn't seem to actually stop the function, it just displays the password length warning then restarts from the first step. I've commented out the code for now in case it creates any bugs.
 
-## Review
+## Links
 
-You are required to submit the following for review:
+[Access the password generator here!]()
 
-* The URL of the deployed application.
+[Access my github here!]()
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+## Credits
+
+[Stack Overflow - Random password generator with prompts [closed]](https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts)
+
+[MOSH - Creating a password generator using JavaScript](https://forum.codewithmosh.com/t/creating-a-password-generator-using-javascript/18971)
+
+[Geek For Geek - How to Generate a Random Password using JavaScript ?](https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/)
+
+[MDN Web Doc - for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+[MDN Web Doc - EventTarget: addEventListener() method](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+[LaunchSchool - Loops and Iterating](https://launchschool.com/books/javascript/read/loops_iterating)
+
+[Stack Overflow - Unable to find how "undefined" is getting printed in Example](https://stackoverflow.com/questions/47547933/unable-to-find-how-undefined-is-getting-printed-in-example)
+
+[MDN Web Doc - undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
+[Stack Overflow - getting undefined while printing the function value from an object](https://stackoverflow.com/questions/73765276/getting-undefined-while-printing-the-function-value-from-an-object)
+
+[MDN Web Doc - Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+[MDN Web Doc - Addition assignment (+=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment)
+
+[Medium - 4 Simple and Quick Methods to Merge Arrays in JavaScript](https://blog.devgenius.io/5-simple-and-quick-methods-to-merge-arrays-in-javascript-cc7cad0453b3)
+
+[Stack Overflow - Javascript prompt() - cancel button to terminate the function](https://stackoverflow.com/questions/12864582/javascript-prompt-cancel-button-to-terminate-the-function)
+
+Xpert Learning Assistant
+
+- - -
+
+[Back to Top](#weekly-challenge-3---javascript-password-generator)
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
