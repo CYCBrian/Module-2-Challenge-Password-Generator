@@ -108,7 +108,7 @@ Xpert Learning Assistant
 
 - - -
 
-[Back to Top](#weekly-challenge-3---javascript-password-generator)
+[Back to Top](#table-of-content)
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
