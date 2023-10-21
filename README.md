@@ -102,6 +102,10 @@ Although not included in the acceptance criteria. I wanted to add a way to stop 
 
 [Stack Overflow - Javascript prompt() - cancel button to terminate the function](https://stackoverflow.com/questions/12864582/javascript-prompt-cancel-button-to-terminate-the-function)
 
+[W3 Schools - Window prompt()](https://www.w3schools.com/jsref/met_win_prompt.asp)
+
+[W3 Schools - Window confirm()](https://www.w3schools.com/jsref/met_win_confirm.asp)
+
 Xpert Learning Assistant
 
 - - -
