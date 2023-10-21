@@ -74,7 +74,7 @@ Although not included in the acceptance criteria. I wanted to add a way to stop 
 
 [Access the password generator here!](https://cycbrian.github.io/Module-3-Challenge-Password-Generator/)
 
-[Access my github here!]()
+[Access my github here!](https://github.com/CYCBrian/Module-3-Challenge-Password-Generator)
 
 ## Credits
 
