@@ -26,7 +26,7 @@ generateBtn.addEventListener("click", writePassword);
 function writePassword() {
   
   // Prompt when the generate password button is clicked. The value is converted to integers.
-  passwordLength = parseInt(prompt ("How long would you like the password to be? (Min. 8  Max. 128"));
+  passwordLength = parseInt(prompt ("How long would you like the password to be? (Min. 8  Max. 128)"));
 
   // If no input was entered into the prompt before clicking okay, an alert will appear with a message asking the user to enter a number. The function then returns to the first step.
     if (!passwordLength) {
@@ -36,7 +36,7 @@ function writePassword() {
     
     // If the number entered is lower than 8 or higher than 129, an alert will appear with a message asking the user to enter a number between 8 and 128. The function then returns to the first step.
     else if (passwordLength < 8 || passwordLength > 128) {
-    passwordLength = parseInt (alert ("Please enter a number between 8 to 128."));
+    passwordLength = parseInt (alert ("Please enter a number between 8 and 128."));
     return writePassword();
   }   
 
